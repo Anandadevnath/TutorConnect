@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: light --default, dark --prefersdark;
+ }
+
+:root {
+  background-color: #111827;
+}
+
+/* Dark Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #1a2233;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #374151 #1a2233;
+}
